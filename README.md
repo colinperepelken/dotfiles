@@ -10,6 +10,16 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config checkout
 ````
 
+### Run installation script
+#### Ubuntu
+```
+~/.install_ubuntu.sh
+```
+#### Mac OSX (todo)
+```
+~/.install_macos.sh
+```
+
 ## Adding dotfiles
 ```
 config add .zshrc
