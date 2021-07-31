@@ -15,7 +15,7 @@ config checkout
 ```
 ~/.install_ubuntu.sh
 ```
-#### Mac OSX (todo)
+#### Mac OSX
 ```
 ~/.install_macos.sh
 ```
