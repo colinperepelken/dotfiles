@@ -5,7 +5,7 @@ Adapted from: [https://www.atlassian.com/git/tutorials/dotfiles](https://www.atl
 ## Installation
 
 ```
-git clone --bare <git-repo-url> $HOME/.cfg
+git clone --bare https://github.com/colinperepelken/dotfiles $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config checkout
 ````
