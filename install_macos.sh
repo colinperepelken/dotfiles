@@ -9,5 +9,4 @@ if ! fc-list : file family |grep \/Library grep Fira; then
   brew cask install font-fira-code
 fi
 # Install spaceship theme
-git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
 ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
