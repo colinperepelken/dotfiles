@@ -8,6 +8,7 @@ Adapted from: [https://www.atlassian.com/git/tutorials/dotfiles](https://www.atl
 git clone --bare https://github.com/colinperepelken/dotfiles $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config checkout
+config submodule update --init --recursive
 ````
 
 ### Run installation script
