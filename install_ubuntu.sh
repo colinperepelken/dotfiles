@@ -8,3 +8,6 @@ sudo apt install fonts-firacode
 
 # Install spaceship theme
 ln -s ~/.oh-my-zsh-custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my-zsh-custom/themes/spaceship.zsh-theme
+
+# Install fzf
+~/.fzf/install
