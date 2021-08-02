@@ -23,6 +23,7 @@ config submodule update --init --recursive
 ~/.install_ubuntu.sh
 ```
 #### Mac OSX
+This script is still a work in progress, as I generally use Ubuntu.
 ```
 ~/.install_macos.sh
 ```
@@ -38,6 +39,5 @@ I use this README as a list of additional software I usually install on a new sy
 - Visual Studio Code
 - Slack
 - Google Chrome
-- Terminator/Iterm2
 - DBeaver
 - Postgres
