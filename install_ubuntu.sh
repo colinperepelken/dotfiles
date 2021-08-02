@@ -26,6 +26,12 @@ snap install spotify
 # Install terminator
 apt install terminator
 
+# Install terminator-themes
+apt install pip
+pip install requests
+mkdir -p $HOME/.config/terminator/plugins
+wget https://git.io/v5Zww -O $HOME"/.config/terminator/plugins/terminator-themes.py"
+
 # Generate SSH key
 ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -P ""
 ssh-add ~/.ssh/id_rsa
