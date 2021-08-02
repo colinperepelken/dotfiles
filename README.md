@@ -33,3 +33,11 @@ config add .zshrc
 config commit -m "Add .zshrc"
 config push
 ```
+## Additional software
+I use this README as a list of additional software I usually install on a new system:
+- Visual Studio Code
+- Slack
+- Google Chrome
+- Terminator/Iterm2
+- DBeaver
+- Postgres
