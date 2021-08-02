@@ -4,6 +4,12 @@ Adapted from: [https://www.atlassian.com/git/tutorials/dotfiles](https://www.atl
 
 ## Installation
 
+### Pre-requisites
+```
+sudo apt install git
+```
+### Installation
+
 ```
 git clone --bare https://github.com/colinperepelken/dotfiles $HOME/.cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
