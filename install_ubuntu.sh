@@ -18,3 +18,8 @@ ln -sfn ~/.oh-my-zsh-custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my
 
 # Install fzf
 ~/.fzf/install
+
+# Install spotify
+snap install spotify
+
+
