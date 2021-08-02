@@ -22,4 +22,9 @@ ln -sfn ~/.oh-my-zsh-custom/themes/spaceship-prompt/spaceship.zsh-theme ~/.oh-my
 # Install spotify
 snap install spotify
 
+# Install terminator
+apt install terminator
 
+# Generate SSH key
+ssh-keygen -t rsa -f ~/.ssh/id_rsa -q -P ""
+ssh-add ~/.ssh/id_rsa
