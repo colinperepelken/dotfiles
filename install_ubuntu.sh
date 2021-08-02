@@ -5,7 +5,8 @@ apt install vim
 
 # Install zsh, and set the shell to zsh
 apt install zsh
-chsh -s $(which zsh)
+command -v zsh | sudo tee -a /etc/shells
+sudo chsh -s "$(command -v zsh)" "${USER}"
 
 # Install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
